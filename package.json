@@ -39,6 +39,7 @@
   },
   "dependencies": {
     "co": "^4.6.0",
+    "ffprobe-static": "^1.1.0",
     "mz": "^2.4.0",
     "path-exists": "^2.1.0"
   }
