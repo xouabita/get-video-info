@@ -1,0 +1,44 @@
+{
+  "name": "get-video-info",
+  "version": "0.0.1",
+  "description": "Get video information with ffprobe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "babel": {
+    "presets": [
+      "es2015-node5",
+      "stage-0"
+    ],
+    "env": {
+      "development": {
+        "sourceMaps": "inline"
+      }
+    }
+  },
+  "ava": {
+    "babel": "inherit"
+  },
+  "keywords": [
+    "video",
+    "duration",
+    "dimension",
+    "codecs",
+    "ffprobe",
+    "infos",
+    "info"
+  ],
+  "author": "xouabita",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "babel-preset-es2015-node5": "^1.2.0",
+    "babel-preset-stage-0": "^6.5.0"
+  },
+  "dependencies": {
+    "co": "^4.6.0",
+    "mz": "^2.4.0",
+    "path-exists": "^2.1.0"
+  }
+}
