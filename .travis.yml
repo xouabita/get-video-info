@@ -1,4 +1,7 @@
-nguage: node_js
+language: node_js
 node_js:
     - '5'
-    - '4'
+addons:
+  apt:
+    packages:
+      - "ffmpeg"
